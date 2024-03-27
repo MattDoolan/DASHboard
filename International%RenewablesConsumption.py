@@ -21,6 +21,8 @@ Percentage = df.iloc[:, 1:] #Here we define our numerical values
 # Initialize Dash app
 app = dash.Dash(__name__) #In simpler terms, it's creating a Dash application object that you can use to build your web application. Naming the application 'app'
 
+server = app.server
+
 # #This sets the layout of your Dash application, specifying how the components (like dropdowns, graphs, etc.) will be arranged.
 app.layout = html.Div([  #This creates a division or container. Inside the square brackets,Everything inside this html.Div will be grouped together visually on your web page.
     dcc.Dropdown(
