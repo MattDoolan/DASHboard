@@ -2,4 +2,4 @@ dash==2.6.0
 pandas
 gunicorn
 matplotlib
-flask
+flask==2.1.5
